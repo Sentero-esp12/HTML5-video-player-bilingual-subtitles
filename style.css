@@ -1,0 +1,99 @@
+
+div#toHideShowControls {
+   top: 0;
+   width: 100vw;
+   height: 82px;
+   position: absolute;
+   /* background: #ea1616; */
+   margin-top: calc(100vh - 10vh);
+   z-index: 100;
+   pointer-events: none;
+}
+
+#spanWrapper {
+ top: 0;
+   left: 0;
+   
+   text-align: center;
+ 
+   position: absolute;
+   width: 100vw;
+}
+
+#subtitleSpan {
+
+ margin-top: 634px;
+   transform: translateX(-50%);
+   margin-left: 0 auto;
+   position: absolute;
+   background: #00000061;
+   color: white;
+   padding: 22px;
+   font-size: 95px;
+   width: 100%;
+   line-height: 0.8em;
+   white-space: pre-line;
+ 
+}
+
+ #wrapper {
+   display: flex;
+ }
+ body {margin:0;}
+
+ video {
+   width: 100%;
+   height: 100vh;
+   background-color: black;
+   outline:none;
+ }
+
+ input {
+   display: block;
+   width: 100%;
+ }
+
+ .info {
+   background-color: aqua;
+ }
+
+ .error {
+   background-color: red;
+   color: white;
+ }
+
+ #message {
+   display: none;
+ }
+
+
+ html {
+   overflow: scroll;
+   overflow-x: hidden;
+   scrollbar-width: none;
+}
+::-webkit-scrollbar {
+   width: 0px;  /* Remove scrollbar space */
+   background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+   background: #FF0000;
+}
+
+::selection {
+   background: #000000b3;
+}
+
+#new_popup_container {
+ transform: scale(2.5);
+ background-color: #000000a2;
+}
+#single_word {
+ color:white;
+}
+
+div#new_popup_container * {
+   color: white;
+   resize: none !important;
+}
